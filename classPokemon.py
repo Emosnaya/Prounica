@@ -1,6 +1,4 @@
 
-
-
 class Pokemon():
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, habilidad, ps, ataque, defensa, ataqueEsp, defensaEsp,velocidad):
         self._nombre = nombre
