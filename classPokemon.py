@@ -1,6 +1,6 @@
 
 class Pokemon():
-    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, habilidad, ps, ataque, defensa, ataqueEsp, defensaEsp,velocidad):
+    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, habilidad, ps, ataque, defensa, ataqueEsp, defensaEsp,velocidad, debilidad):
         self._nombre = nombre
         self._numero = numero
         self._tipo = tipo 
@@ -14,7 +14,8 @@ class Pokemon():
         self.defensa = defensa
         self.ataqueEsp = ataqueEsp
         self.defensaEsp = defensaEsp
-        self.velocidad = velocidad  
+        self.velocidad = velocidad
+        self.debilidad = debilidad  
         
 
     @property
