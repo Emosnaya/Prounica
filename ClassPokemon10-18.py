@@ -1,7 +1,7 @@
 from classPokemon import Pokemon
 
 class Water(Pokemon):
-    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp,):
+    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
         self.habilidad = 'Bueno contra Hielo'
         self.debilida = 'Débil contra hielo'
@@ -11,7 +11,7 @@ class Water(Pokemon):
 
 
 class Plant(Pokemon):
-    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp,):
+    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
         self.habilidad = 'Bueno contra Hielo'
         self.debilida = 'Débil contra hielo'
@@ -22,7 +22,7 @@ class Plant(Pokemon):
 
 
 class Poison(Pokemon):
-    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp,):
+    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
         self.habilidad = 'Bueno contra Hielo'
         self.debilida = 'Débil contra hielo'
@@ -32,7 +32,7 @@ class Poison(Pokemon):
 
 
 class Fairy(Pokemon):
-    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp,):
+    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
         self.habilidad = 'Bueno contra Hielo'
         self.debilida = 'Débil contra hielo'
@@ -42,7 +42,7 @@ class Fairy(Pokemon):
 
 
 class Dragon(Pokemon):
-    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp,):
+    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
         self.habilidad = 'Bueno contra Hielo'
         self.debilida = 'Débil contra hielo'
@@ -52,7 +52,7 @@ class Dragon(Pokemon):
 
 
 class Dark(Pokemon):
-    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp,):
+    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
         self.habilidad = 'Bueno contra Hielo'
         self.debilida = 'Débil contra hielo'
