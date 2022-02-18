@@ -1,6 +1,8 @@
+from random import randint
+
 
 class Pokemon():
-    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria):
+    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp):
         self._nombre = nombre
         self._numero = numero
         self._tipo = tipo 
@@ -8,6 +10,10 @@ class Pokemon():
         self._peso = peso
         self._sexo = sexo
         self._categoria = categoria
+        self.hp = hp
+        self.ataque = ataque
+        self.ataquesp = ataquesp
+    
         
 
     @property
@@ -78,3 +84,21 @@ class Pokemon():
     def archivos():
         pass
     
+    def inflingeDaño(self):
+        return randint(1, self.ataque)
+
+    def inflingeDaño(self, modificador ='Normal'):
+        daño = 0
+        if (modificador == 'ventaja'):
+            daño = randint(1, self.ataquesp)+randint(1,5)
+        elif (modificador == 'desventaja'):
+            while daño <= 0:
+                daño = randint(1,self.ataque)-randint(1,self.ataque-1)
+        else: 
+            daño = randint(1, self.ataque)
+        
+        return daño
+    
+    def recibeAtaque(self,daño):
+        return self.hp-daño
+
