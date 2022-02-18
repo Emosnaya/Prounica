@@ -26,7 +26,7 @@ class Fire(Pokemon):
         return daño
     
     def recibeAtaque(self,daño):
-        self.hp-daño
+         return self.hp-daño
     
 
 
