@@ -26,15 +26,8 @@ class Fire(Pokemon):
         return daño
     
     def recibeAtaque(self,daño):
-        self.hp-daño
+        return self.hp-daño
     
-
-
-    
-
-
-    
-
 
 class Electric(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp):
