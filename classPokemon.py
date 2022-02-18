@@ -9,6 +9,7 @@ class Pokemon():
         self._sexo = sexo
         self._categoria = categoria
         
+
     @property
     def nombre(self):
         return self._nombre
@@ -76,5 +77,4 @@ class Pokemon():
 
     def archivos():
         pass
-    
     
