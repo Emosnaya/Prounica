@@ -73,11 +73,6 @@ class Pokemon():
     @habilidad.setter
     def habilidad(self, habilidad):
         self._habilidad = habilidad
-
-
-    def archivos():
-        pass
-
     
     def inflingeDaño(self):
             return random(1, self.ataque)
@@ -96,3 +91,5 @@ class Pokemon():
     def recibeAtaque(self,daño):
         return self.hp-daño
     
+    def pelea(player1, player2):
+        print(f'pelea entre {player1.nombre} y {player2.nombre}')
