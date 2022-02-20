@@ -1,8 +1,11 @@
+#Función para imprimir la gráfica de Charizard
 def Charizard_graf():
     import matplotlib.pyplot as plt
     fig, ax = plt.subplots()
+    #Estadísticas que se desplegaran en la gráfica
     estadisticas = ["HP", "Ataque", "Defensa", "Atq Esp", "Def Esp", "Velocidad"]
     Charizard= {"Charizard": [5, 5, 5, 7, 5, 6]}
+    #Se opta por una tabla de barras
     ax.bar(estadisticas, Charizard["Charizard"], color = "#F13406")
     #set_xlabel
     #set_ylabel
@@ -16,5 +19,6 @@ def Charizard_graf():
     ax.set_yticks(range(0, 10))
     #ax.legend
     ax.legend(["Charizard"], loc = "upper right")
+    #Se coloca el titulo de la gráfica
     ax.set_title("Charizard", loc="center", fontdict = {"fontsize":20, "fontweight":"bold", "color": "#F13406" })
     plt.show()

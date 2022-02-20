@@ -37,9 +37,7 @@ while not salir:
 
     if opcion == 1:
         print ("Seleccione el pokemon del cual desea saber sus estadisticas")
-        pokemones = DataFrame()
-        pokemones.df
-        #print 
+        
     elif opcion == 2:
         print ("Escoge dos pokemones para pelear")
         pokemons = {
