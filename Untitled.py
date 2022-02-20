@@ -18,7 +18,7 @@ df = {'Nombre':['Zapdos', 'Togepi', 'Charizard', 'Totodile', 'Mew'], 'Numero':['
 
 df = pd.DataFrame(df)
 
-
+df.to_json('pokemones.json')
 # In[26]:
 
 

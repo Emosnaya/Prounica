@@ -1,6 +1,5 @@
 from ClassJason import DataFrame
 
-
 print("BIENVENIDO A TU POKEDEX\n")
 print("¿QUE DESEA HACER?")
 def menu():
@@ -24,16 +23,15 @@ while not salir:
     print ("2. Pelea entre dos pokemones")
     print ("3. Salir")
 
-    print ("Elige una opcion")
-
-    opcion = input ()
+    opcion = int(input("Elige una opcion\n"))
 
     if opcion == 1:
         print ("Seleccione el pokemon del cual desea saber sus estadisticas")
-        #for Pokemones in DataFrame['Nombre']
+        pokemones = DataFrame()
+        pokemones.df
         #print 
     elif opcion == 2:
-        print ("Opcion 2")
+        print ("Escoge dos pokemones para pelear")
     elif opcion == 3:
         salir = True
         print("RECUERDA TRATAR CON AMOR TUS POKEMONES")
