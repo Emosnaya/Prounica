@@ -1,14 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
-import matplotlib.pyplot as plt
-
-
-# In[18]:
-
 
 import matplotlib.pyplot as plt
 fig, ax = plt.subplots()
@@ -29,10 +18,3 @@ ax.set_yticks(range(0, 10))
 ax.legend(["Zapdos"], loc = "upper right")
 ax.set_title("Estadisticas Zapdos", loc="center", fontdict = {"fontsize":20, "fontweight":"bold", "color": "#FADA0D" })
 plt.show()
-
-
-# In[ ]:
-
-
-
-

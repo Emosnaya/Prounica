@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import matplotlib.pyplot as plt
 fig, ax = plt.subplots()
 estadisticas = ["HP", "Ataque", "Defensa", "Atq Esp", "Def Esp", "Velocidad"]
@@ -23,10 +17,3 @@ ax.set_yticks(range(0, 10))
 ax.legend(["Mew"], loc = "upper right")
 ax.set_title("Mew", loc="center", fontdict = {"fontsize":20, "fontweight":"bold", "color": "#F30AE3" })
 plt.show()
-
-
-# In[ ]:
-
-
-
-
