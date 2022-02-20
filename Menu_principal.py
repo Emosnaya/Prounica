@@ -37,15 +37,6 @@ while not salir:
 
     if opcion == 1:
         print ("Seleccione el pokemon del cual desea saber sus estadisticas")
-        pokemons = {
-            1: charizar.nombre,
-            2: Mew.nombre,
-            3: Togepi.nombre,
-            4: totodile.nombre,
-            5: zapdos.nombre 
-            }
-        for clave, valor in pokemons.items():
-            print(f'{clave}: {valor}')
         pokemones = DataFrame()
         pokemones.df
         #print 
@@ -65,11 +56,19 @@ while not salir:
         player2 = int(input('Pokemon 2: '))
 
         print(f'Pelea entre {pokemons[player1]} y {pokemons[player2]}' )
-
-        print(f'Ataque de {pokemons[player1]} ')
-        if(randint(1,3)== 1):
-            print('Ataque normal')
-            daño = player1.infligeDaño('ventaja')
+        vida1 = 10
+        golpe =  randint(1,3)
+        while(vida1):
+            print(f'Ataque de {pokemons[player1]} ')
+            if golpe == 1 :
+                print('Ataque normal')
+                vida1 = vida1-3
+            elif golpe == 2:
+                print('Ataque especial')
+                vida1 = vida1-4
+            else:
+                print('Ataque faliido')
+            
 
         break
     elif opcion == 3:
