@@ -1,4 +1,4 @@
-
+import random
 class Pokemon():
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria):
         self._nombre = nombre
@@ -77,4 +77,22 @@ class Pokemon():
 
     def archivos():
         pass
+
+    
+    def inflingeDaño(self):
+            return random(1, self.ataque)
+            
+    def inflingeDaño(self, modificador ='Normal'):
+        daño = 0
+        if (modificador == 'ventaja'):
+            daño = random(1, self.ataquesp)+random(1,10)
+        elif (modificador == 'desventaja'):
+            while daño <= 0:
+                daño = random(1,self.ataque)-random(1,self.ataque-3)
+            else: 
+                daño = random(1, self.ataque)  
+        return daño
+            
+    def recibeAtaque(self,daño):
+        return self.hp-daño
     
