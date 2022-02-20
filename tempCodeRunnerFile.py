@@ -44,6 +44,20 @@ while not salir:
         #print 
     elif opcion == 2:
         print ("Escoge dos pokemones para pelear")
+        pokemons = {
+            1: "Charizard",
+            2: "Mew",
+            3: "Togepi",
+            4: "Totodile",
+            5: "Zapdos" 
+            }
+        for clave, valor in pokemons.items():
+            print(f'{clave}: {valor}')
+
+        player1 = int(input('Ingrese el Pokemon 1: '))
+        player2 = int(input('Ingrese el Pokemon 2: '))
+        if player1 == 1 and player2 == 2:
+            print()
 
         break
     elif opcion == 3:

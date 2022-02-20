@@ -10,7 +10,7 @@ class Fire(Pokemon):
         self.ataque = ataque
         self.ataquesp = ataquesp
         self.habilidad = habilidad
-
+    
 
 class Electric(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad):

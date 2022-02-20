@@ -18,3 +18,5 @@ def Zapdos_graf():
     ax.legend(["Zapdos"], loc = "upper right")
     ax.set_title("Estadisticas Zapdos", loc="center", fontdict = {"fontsize":20, "fontweight":"bold", "color": "#FADA0D" })
     plt.show()
+
+Zapdos_graf()
