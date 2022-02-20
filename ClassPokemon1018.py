@@ -1,7 +1,7 @@
 from classPokemon import Pokemon
 
 class Water(Pokemon):
-    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, fortaleza, debilidad, ataque, ataquesp, habilidad):
+    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
         self.fortaleza = 'Bueno contra Fuego, Roca, Tierra'
         self.debilida = 'Débil contra Agua, Dragón, Planta'
@@ -12,7 +12,7 @@ class Water(Pokemon):
 
 
 class Plant(Pokemon):
-    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, fortaleza, debilidad, ataque, ataquesp, habilidad):
+    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
         self.fortaleza = 'Bueno contra Agua, Roca, Tierra'
         self.debilidad = 'Débil contra Acero, Bicho, Dragón, Fuego, Planta, Veneno, Volador'
@@ -24,7 +24,7 @@ class Plant(Pokemon):
 
 
 class Poison(Pokemon):
-    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, fortaleza, debilidad, ataque, ataquesp, habilidad):
+    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
         self.fortaleza = 'Bueno contra Hada, Planta'
         self.debilida = 'Débil contra Acero, Fantasma, Roca, Tierra, Veneno'
@@ -35,7 +35,7 @@ class Poison(Pokemon):
 
 
 class Fairy(Pokemon):
-    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, fortaleza, debilidad, ataque, ataquesp, habilidad):
+    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
         self.fortaleza = 'Bueno contra Dragón, Lucha, Siniestro'
         self.debilida = 'Débil contra Acero, Fuego, Veneno'
@@ -46,7 +46,7 @@ class Fairy(Pokemon):
 
 
 class Dragon(Pokemon):
-    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, fortaleza, debilidad, ataque, ataquesp, habilidad):
+    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
         self.fortaleza = 'Bueno contra Dragón'
         self.debilida = 'Débil contra Acero, Hada'
@@ -57,7 +57,7 @@ class Dragon(Pokemon):
 
 
 class Dark(Pokemon):
-    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, fortaleza, debilidad, ataque, ataquesp, habilidad):
+    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
         self.fortaleza = 'Bueno contra Fantasma, Psíquico'
         self.debilida = 'Débil contra Hada, Lucha, Siniestro'
@@ -68,7 +68,7 @@ class Dark(Pokemon):
 
 
 class Fighter(Pokemon):
-    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, fortaleza, debilidad, ataque, ataquesp, habilidad,):
+    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad,):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
         self.fortaleza = 'Bueno contra Normal'
         self.debilida = 'Débil contra Bicho, Fantasma, Hada, Psíquico, Veneno, Volador'
@@ -79,7 +79,7 @@ class Fighter(Pokemon):
 
 
 class Ghost(Pokemon):
-    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, fortaleza, debilidad, ataque, ataquesp, habilidad,):
+    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad,):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
         self.fortaleza = 'Bueno contra Fantasma, Volador'
         self.debilida = 'Débil contra Normal, Siniestro'
@@ -90,7 +90,7 @@ class Ghost(Pokemon):
 
 
 class Psychic(Pokemon):
-    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, fortaleza, debilidad, ataque, ataquesp, habilidad,):
+    def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad,):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
         self.fortaleza = 'Bueno contra Lucha, Veneno'
         self.debilida = 'Débil contra Acero, Psíquico, Siniestro'
