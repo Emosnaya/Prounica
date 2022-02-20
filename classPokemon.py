@@ -1,6 +1,8 @@
 import random
+#Se decalara una clase global que heredarán las demás clases
 class Pokemon():
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria):
+        #declaración de atributos
         self._nombre = nombre
         self._numero = numero
         self._tipo = tipo 
@@ -9,7 +11,7 @@ class Pokemon():
         self._sexo = sexo
         self._categoria = categoria
         
-
+    #Las propiedades de la clase  principal se hacen privadas y usamos el setter para definir los atributos
     @property
     def nombre(self):
         return self._nombre
@@ -73,6 +75,7 @@ class Pokemon():
     @habilidad.setter
     def habilidad(self, habilidad):
         self._habilidad = habilidad
+<<<<<<< HEAD
     
     def inflingeDaño(self):
             return random(1, self.ataque)
@@ -90,4 +93,6 @@ class Pokemon():
             
     def recibeAtaque(self,daño):
         return self.hp-daño
+=======
+>>>>>>> 6dc12165081de49eae8999933fbf48206eb92eea
     

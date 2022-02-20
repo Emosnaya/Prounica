@@ -1,8 +1,11 @@
+#Función para imprimir la gráfica de Charizard
 def Totodile_graf():
     import matplotlib.pyplot as plt
     fig, ax = plt.subplots()
+    #Atributos que se mostraran en la tabla
     estadisticas = ["HP", "Ataque", "Defensa", "Atq Esp", "Def Esp", "Velocidad"]
     Totodile= {"Totodile": [3, 3, 4, 3, 3, 3]}
+    #Se opta por una tabla de barras
     ax.bar(estadisticas, Totodile["Totodile"], color = "#22C4DE")
     #set_xlabel
     #set_ylabel

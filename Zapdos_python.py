@@ -1,8 +1,11 @@
+#Funcion para imprimir la grafica de Zapdos
 def Zapdos_graf():
     import matplotlib.pyplot as plt
     fig, ax = plt.subplots()
+    #Atributos que se van a mostrar
     estadisticas = ["HP", "Ataque", "Defensa", "Atq Esp", "Def Esp", "Velocidad"]
     Zapdos= {"Zapdos": [6, 6, 5, 7, 6, 6]}
+    #Se opta por grafica de barras
     ax.bar(estadisticas, Zapdos["Zapdos"], color = "#FADA0D")
     #set_xlabel
     #set_ylabel
@@ -16,6 +19,7 @@ def Zapdos_graf():
     ax.set_yticks(range(0, 10))
     #ax.legend
     ax.legend(["Zapdos"], loc = "upper right")
+    #Titulo de la grafica
     ax.set_title("Estadisticas Zapdos", loc="center", fontdict = {"fontsize":20, "fontweight":"bold", "color": "#FADA0D" })
     plt.show()
 
