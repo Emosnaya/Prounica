@@ -22,13 +22,13 @@ def mostrar_gráficas():
 
         if graf == 1:
             Charizard_graf()
-            print(df[df['Charizard']])
+            print(df[df.loc['Charizard']])
         elif graf == 2:
             Mew_graf()
-            print(df[df['Mew']])
+            print(df[df.loc['Mew']])
         elif graf == 3:
             Togepi_graf()
-            print(df[df['Togepi']])
+            print(df[df.loc['Togepi']])
         elif graf == 4:
             Totodile_graf()
         elif graf == 5:

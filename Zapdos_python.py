@@ -1,4 +1,7 @@
 #Funcion para imprimir la grafica de Zapdos
+from typing_extensions import Self
+
+
 def Zapdos_graf():
     import matplotlib.pyplot as plt
     fig, ax = plt.subplots()
