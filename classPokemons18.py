@@ -11,8 +11,8 @@ class Fire(Pokemon):
         self.ataque = ataque
         self.ataquesp = ataquesp
         self.habilidad = habilidad
+    
 
-#Se define la clase de los tipo electrico y heredan de pokemon
 class Electric(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)

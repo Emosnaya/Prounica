@@ -1,5 +1,8 @@
 
+from random import randint
+from telnetlib import DO
 from ClassPokemon1018 import Fairy, Psychic, Water
+from Impresion_graficas import mostrar_gráficas
 from classPokemon import Pokemon
 from classPokemons18 import Electric, Fire
 from pelea import pelea
@@ -41,17 +44,12 @@ while not salir:
     opcion = int(input("Elige una opcion\n"))
 
     if opcion == 1:
+        mostrar_gráficas()
+        #pokemones = DataFrame() 
+        #pokemones.df"""
+        #print 
         print ("Seleccione el pokemon del cual desea saber sus estadisticas")
-        pokemons = {
-            1: charizar.nombre,
-            2: Mew.nombre,
-            3: Togepi.nombre,
-            4: totodile.nombre,
-            5: zapdos.nombre 
-            }
-        for clave, valor in pokemons.items():
-            print(f'{clave}: {valor}')
-            
+        
     elif opcion == 2:
         pelea()
 
