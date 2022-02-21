@@ -1,4 +1,5 @@
 from re import X
+from DataFrame import df
 from Zapdos_python import Zapdos_graf
 from Togepi_python import Togepi_graf
 from Totodile_python import Totodile_graf
@@ -6,7 +7,7 @@ from Charizard_python import Charizard_graf
 from Mew_python import Mew_graf
 
 def mostrar_gráficas():
-    print ("Seleccione el pokemon del cual desea saber sus estadisticas")
+    print("Seleccione el pokemon del cual desea saber sus estadisticas")
     pokemons = {
         1: "Charizard",
         2: "Mew",
@@ -21,14 +22,18 @@ def mostrar_gráficas():
 
         if graf == 1:
             Charizard_graf()
+            print(df[df['Charizard']])
         elif graf == 2:
             Mew_graf()
+            print(df[df['Mew']])
         elif graf == 3:
             Togepi_graf()
+            print(df[df['Togepi']])
         elif graf == 4:
             Totodile_graf()
         elif graf == 5:
             Zapdos_graf()
+            print(df[df['Zapdos']])
         else:
             raise ValueError
     except ValueError:
