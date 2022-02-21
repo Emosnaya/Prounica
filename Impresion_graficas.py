@@ -1,5 +1,5 @@
-from re import X
-from DataFrame import df
+
+from DataFrame import Mew_frame, charizard, togepi_frame, totodile_frame, zapdos_frame
 from Zapdos_python import Zapdos_graf
 from Togepi_python import Togepi_graf
 from Totodile_python import Totodile_graf
@@ -22,18 +22,19 @@ def mostrar_gráficas():
 
         if graf == 1:
             Charizard_graf()
-            print(df[df.loc['Charizard']])
+            charizard()
         elif graf == 2:
             Mew_graf()
-            print(df[df.loc['Mew']])
+            Mew_frame()
         elif graf == 3:
             Togepi_graf()
-            print(df[df.loc['Togepi']])
+            togepi_frame()
         elif graf == 4:
             Totodile_graf()
+            totodile_frame()
         elif graf == 5:
             Zapdos_graf()
-            print(df[df['Zapdos']])
+            zapdos_frame()
         else:
             raise ValueError
     except ValueError:
