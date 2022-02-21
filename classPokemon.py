@@ -75,7 +75,6 @@ class Pokemon():
     @habilidad.setter
     def habilidad(self, habilidad):
         self._habilidad = habilidad
-<<<<<<< HEAD
     
     def inflingeDaño(self):
             return random(1, self.ataque)
@@ -93,6 +92,4 @@ class Pokemon():
             
     def recibeAtaque(self,daño):
         return self.hp-daño
-=======
->>>>>>> 6dc12165081de49eae8999933fbf48206eb92eea
     
