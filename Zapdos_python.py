@@ -25,5 +25,3 @@ def Zapdos_graf():
     #Titulo de la grafica
     ax.set_title("Estadisticas Zapdos", loc="center", fontdict = {"fontsize":20, "fontweight":"bold", "color": "#FADA0D" })
     plt.show()
-
-Zapdos_graf()

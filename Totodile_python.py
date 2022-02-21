@@ -20,5 +20,4 @@ def Totodile_graf():
     #ax.legend
     ax.legend(["Totodile"], loc = "upper right")
     ax.set_title("Totodile", loc="center", fontdict = {"fontsize":20, "fontweight":"bold", "color": "#22C4DE" })
-    while True:
-        plt.show()
+    plt.show()
