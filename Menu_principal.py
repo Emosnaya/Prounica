@@ -38,15 +38,10 @@ while not salir:
     opcion = int(input("Elige una opcion\n"))
 
     if opcion == 1:
-<<<<<<< HEAD
        mostrar_gráficas()
        """pokemones = DataFrame() 
         pokemones.df"""
         #print 
-=======
-        print ("Seleccione el pokemon del cual desea saber sus estadisticas")
-        
->>>>>>> 6dc12165081de49eae8999933fbf48206eb92eea
     elif opcion == 2:
         print ("Escoge dos pokemones para pelear")
 
