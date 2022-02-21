@@ -1,4 +1,7 @@
 #Funcion para imprimir la grafica de Zapdos
+from typing_extensions import Self
+
+
 def Zapdos_graf():
     import matplotlib.pyplot as plt
     fig, ax = plt.subplots()
@@ -22,3 +25,6 @@ def Zapdos_graf():
     #Titulo de la grafica
     ax.set_title("Estadisticas Zapdos", loc="center", fontdict = {"fontsize":20, "fontweight":"bold", "color": "#FADA0D" })
     plt.show()
+
+
+Zapdos_graf()

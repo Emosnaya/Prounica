@@ -6,4 +6,4 @@ from Charizard_python import Charizard_graf
 from Mew_python import Mew_graf
 
 class Graficas():
-    X
+    x
