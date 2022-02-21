@@ -24,8 +24,19 @@ df.to_json('pokemones.json')
 
 df
 
+def charizard():
+    print(df[df.loc['Charizard']])
 
+def Mew_frame():
+    print(df[df.loc['Mew']])
 
+def togepi_frame():
+    print(df[df.loc['Togepi']])
 
+def totodile_frame():
+    print(df[df.loc['Totodile']])
+
+def zapdos_frame():
+    print(df[df.loc['Charizard']])
 
 # %%
