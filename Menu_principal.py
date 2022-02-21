@@ -6,22 +6,12 @@ from Impresion_graficas import mostrar_gráficas
 from classPokemon import Pokemon
 from classPokemons18 import Electric, Fire
 from pelea import pelea
-#Declaracion de los 5 pokemones
-charizar = Fire('Charizard','6','Fuego/Volador','1.7m','90.5kg','H/M','Llama',7, 3,5, 'Mar LLamas', 'Hielo', 'Agua')
-
-Mew = Psychic('Mew','151', 'Psíquico','0.4m','4kg','desconocido', 'Nueva especie', 7, 4,5, 'sincornía', 'Luchador', 'Metal')
-
-Togepi = Fairy('Togepi','175','Hada', '0.3m','1.5kg','H/M', 'Bolaclavos',5, 2, 3, 'Dicha', 'Luchador', 'Metal')
-
-totodile = Water('Totodile', '158', 'Agua', '0.6m','9.5kg', 'H/M','Fauces', 5, 3,4,'Torrente', 'Fuego', 'Electricidad')
-
-zapdos = Electric('Zapdos', '145', 'Electrico', '1.6m', '52.6kg','Desconocido', 'Electrico',8,4,5,'Presión', 'Agua', 'Suelo' )
-
-
+#Introducción al usuario
 print("BIENVENIDO A TU POKEDEX\n")
 print("¿QUE DESEA HACER?")
+#Menú de opciones
 def menu():
-
+    #Validacion de lo que ingrese el usuario
     correcto=False
     num=0
     while(not correcto):
@@ -34,24 +24,26 @@ def menu():
 
 salir = False
 opcion = 0
-
+#Ciclo del menú
 while not salir:
-
+    #opciones para el usuario
     print ("1. Ver lista de pokemones")
     print ("2. Pelea entre dos pokemones")
     print ("3. Salir")
 
     opcion = int(input("Elige una opcion\n"))
 
+    #Se llama la función de la impresion de estadisticas y graficas
     if opcion == 1:
         mostrar_gráficas()
+    #Se llama la funcion de pelea entre dos pokemones
     elif opcion == 2:
         pelea()
-
-        break
+    #Salir del ciclo
     elif opcion == 3:
         salir = True
         print("RECUERDA TRATAR CON AMOR TUS POKEMONES")
+    #En caso de no seleccionar una opcion correcta
     else:
         print ("Introduce un numero entre 1 y 3")
 

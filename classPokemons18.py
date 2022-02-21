@@ -4,7 +4,6 @@ from classPokemon import Pokemon
 class Fire(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
-        #Fortalezas y debilidades de los tipo fuego
         self.fortaleza = fortaleza
         self.debilidad = debilidad
         self.hp = hp
@@ -16,7 +15,6 @@ class Fire(Pokemon):
 class Electric(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
-        #Fortalezas y debilidades de los tipo electrico
         self.fortaleza = fortaleza
         self.debilidad = debilidad
         self.hp = hp
@@ -28,7 +26,6 @@ class Electric(Pokemon):
 class Fly(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
-        #Fortalezas y debilidades de los tipo volador
         self.fortaleza = fortaleza
         self.debilidad = debilidad
         self.hp = hp
@@ -40,7 +37,6 @@ class Fly(Pokemon):
 class Ice(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
-        #Fortalezas y debilidades de los tipo hielo
         self.fortaleza = fortaleza
         self.debilidad = debilidad
         self.hp = hp
@@ -52,7 +48,6 @@ class Ice(Pokemon):
 class Rock(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
-        #Fortalezas y debilidades de los tipo piedra
         self.fortaleza = fortaleza
         self.debilidad = debilidad
         self.hp = hp
@@ -64,7 +59,6 @@ class Rock(Pokemon):
 class Ground(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
-        #Fortalezas y debilidades de los tipo piso
         self.fortaleza = fortaleza
         self.debilidad = debilidad
         self.hp = hp
@@ -76,7 +70,6 @@ class Ground(Pokemon):
 class Steel(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
-        #Fortalezas y debilidades de los tipo metal
         self.fortaleza = fortaleza
         self.debilidad = debilidad
         self.hp = hp
@@ -88,7 +81,6 @@ class Steel(Pokemon):
 class Normal(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
-        #Fortalezas y debilidades de los tipo normal
         self.fortaleza = fortaleza
         self.debilidad = debilidad
         self.hp = hp
@@ -100,7 +92,6 @@ class Normal(Pokemon):
 class Bug(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
-        #Fortalezas y debilidades de los tipo bicho
         self.fortaleza = fortaleza
         self.debilidad = debilidad
         self.hp = hp

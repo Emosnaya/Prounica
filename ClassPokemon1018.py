@@ -3,7 +3,6 @@ from classPokemon import Pokemon
 class Water(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
-        #Fortalezas y debilidades de los pokemones agua
         self.fortaleza = fortaleza
         self.debilidad = debilidad
         self.hp = hp
@@ -15,7 +14,6 @@ class Water(Pokemon):
 class Plant(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
-        #Fortalezas y debilidades de los pokemones planta
         self.fortaleza = fortaleza
         self.debilidad = debilidad
         self.hp = hp
@@ -28,7 +26,6 @@ class Plant(Pokemon):
 class Poison(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
-        #Fortalezas y debilidades de los pokemones veneno
         self.fortaleza = fortaleza
         self.debilidad = debilidad
         self.hp = hp
@@ -40,7 +37,6 @@ class Poison(Pokemon):
 class Fairy(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
-        #Fortalezas y debilidades de los pokemones hada
         self.fortaleza = fortaleza
         self.debilidad = debilidad
         self.hp = hp
@@ -52,7 +48,6 @@ class Fairy(Pokemon):
 class Dragon(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
-        #Fortalezas y debilidades de los pokemones dragon
         self.fortaleza = fortaleza
         self.debilidad = debilidad
         self.hp = hp
@@ -64,7 +59,6 @@ class Dragon(Pokemon):
 class Dark(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
-        #Fortalezas y debilidades de los pokemones siniestro
         self.fortaleza = fortaleza
         self.debilidad = debilidad
         self.hp = hp
@@ -76,7 +70,6 @@ class Dark(Pokemon):
 class Fighter(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad,):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
-        #Fortalezas y debilidades de los pokemones peleadores
         self.fortaleza = fortaleza
         self.debilidad = debilidad
         self.hp = hp
@@ -99,7 +92,6 @@ class Ghost(Pokemon):
 class Psychic(Pokemon):
     def __init__(self, nombre, numero, tipo, altura, peso, sexo, categoria, hp, ataque, ataquesp, habilidad, fortaleza, debilidad,):
         super().__init__(nombre, numero, tipo, altura, peso, sexo, categoria)
-        #Fortalezas y debilidades de los pokemones psiquicos
         self.fortaleza = fortaleza
         self.debilidad = debilidad
         self.hp = hp
